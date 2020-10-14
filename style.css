@@ -54,7 +54,7 @@ li:last-child{
 }
 .promo {
   margin-top: 84px;
-  background: url(/img/promo.png) no-repeat;
+  background: url(./img/promo.png) no-repeat;
 }
 h1 {
   font-style: normal;
@@ -97,7 +97,7 @@ p {
 }
 
 .hero {
-  background: url(/img/hero.png);
+  background: url(./img/hero.png);
   height: 483px;
 }
 .hero-text {

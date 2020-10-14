@@ -1,0 +1,191 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+  padding: 0 55px;
+  margin: auto;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  top: 0;
+}
+.nav {
+  background: #007765;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding: 20px 0px 19px 55px;
+}
+ul {
+  display: flex;
+  padding-right: 35px;
+}
+li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+}
+
+a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+li:last-child{
+  padding-right: 12px;
+}
+.promo {
+  margin-top: 84px;
+  background: url(/img/promo.png) no-repeat;
+}
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding: 48px 0px 16px;
+  margin: 0;
+}
+.the-problem {
+  height: 719px;
+  background: #eeeeee;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 37px;
+}
+.section-text {
+  font-weight: 400;
+  justify-content: center;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  padding-left: 55px;
+  padding-right: 54px;
+  text-align: start;
+}
+
+.hero {
+  background: url(/img/hero.png);
+  height: 483px;
+}
+.hero-text {
+  font-style: italic;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 128px 163px;
+}
+.ppc {
+  height: 604px;
+  background: #ffffff;
+}
+.ppc-img {
+  padding-left: 55px;
+  padding-right: 48px;
+  float: left;
+}
+.ppc-text,
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+.ppc-text {
+  padding-right: 71px;
+}
+.text {
+  padding-left: 55px;
+  padding-right: 54px;
+}
+.team {
+  height: 845px;
+  background: #eeeeee;
+}
+.cards {
+  padding-top: 12px;
+  padding-left: 55px;
+  padding-right: 54px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+.member-card {
+  margin: 0;
+  width: 350px;
+  height: 283px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background: #eeeeee;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.name {
+  padding-top: 14px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+.position {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.footer {
+  height: 176px;
+  background: #333333;
+  display: flex;
+  justify-content: center;
+}
+.footext {
+  width: 540px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 48px;
+}

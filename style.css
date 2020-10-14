@@ -158,6 +158,10 @@ p {
   align-items: center;
   padding-bottom: 30px;
 }
+.photo {
+  height:168px;
+  width:168px;
+}
 .name {
   padding-top: 14px;
   text-align: center;
